@@ -1,2 +1,7 @@
 # wizeup-product-architecture
 High-level technical architecture, scaling strategy, and infrastructure overview for the Wizeup EdTech MVP.
+Product and Technical Strategy
+    As the Product Lead, I manage our three-person team (myself, a Tech Lead, and a Designer) from concept to deployment. Because my background is non-technical, my primary focus is on defining clear product requirements, managing our roadmap, and keeping development lean. I directed the team to utilise cost-effective tools like Firebase and Supabase for our backend to stretch our runway, while leveraging Gemini to automate the extraction of 14 years' worth of JAMB past questions.
+    Beyond just compiling data, I personally managed the creation of our core learning materials. We wrote comprehensive study notes and mapped them to specific subjects and sub-topics. I then worked with my Tech Lead to ensure our app didn't just serve random questions, but actually linked our custom notes directly to the relevant question banks, giving students a highly targeted study experience.
+    Crisis Management & Scaling
+   During the recent exam cycle, aggressive user traffic strained our database connection pooling, causing lockouts. As the PM, I made the executive decision to immediately halt all marketing campaigns. I prioritised stabilising the backend for our 200 active users over acquiring 2,000 unsatisfied ones. We subsequently resolved the pooling issue and maintained platform integrity.
